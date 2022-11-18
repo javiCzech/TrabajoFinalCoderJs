@@ -1,0 +1,34 @@
+.btn {
+    border: rgb(46, 43, 226) 2px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: rgb(43, 52, 226);
+    color: white;
+    cursor: pointer;
+    padding: 8px 10px;
+  }
+  
+.btn-negro{
+  @extend .btn;
+  border: $color-titulos;
+  background-color: $color-titulos;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 8px 20px;
+  margin: 6px 6px 0 0;
+  border-radius: 20px;
+  &:hover {
+    color: $color-titulos;
+    opacity: 0.9;
+  }
+}
+
+.btn-naranja{
+  @extend .btn-negro;
+  background-color: $color-primario !important;
+  &:hover {
+    background-color:$color-primario !important;
+    opacity: 0.6;
+  }
+}

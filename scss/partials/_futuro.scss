@@ -1,0 +1,11 @@
+.futuro{
+        font-size: 4rem;
+        font-weight: 900;
+        margin-bottom: 8px;
+        color: $color-titulos;
+        @media (max-width: 480px) {
+                & {
+                   font-size: 3rem;
+                }
+              }
+}

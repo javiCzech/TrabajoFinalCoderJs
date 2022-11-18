@@ -1,0 +1,497 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Titillium Web";
+}
+
+.img-carrito {
+  width: 50px;
+  height: 50px;
+}
+
+.carro {
+  border-top: 25px;
+  color: #ff6400;
+}
+
+.h1-carrito {
+  font-size: 4rem;
+}
+
+.tablaBlanca {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.h2-carrito {
+  font-size: 3rem;
+  margin: 0px auto;
+}
+
+.h4-total {
+  font-size: 25px;
+}
+
+.li-carrito {
+  text-align: center;
+  width: 31.9%;
+  margin-bottom: 3px !important;
+  display: inline-block !important;
+  font-size: 10px;
+  padding: 0;
+}
+
+#unico {
+  display: flex;
+  margin: 0 auto 10px auto;
+  width: 32px;
+  height: 32px;
+  margin: 10px auto 0;
+  line-height: 32px;
+  text-align: center;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.55);
+  margin-top: 0;
+  padding-top: 5px;
+}
+#unico :hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* CSS para posicionar el bade cerca del carrito*/
+.cart {
+  position: relative;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.cart-rojo {
+  position: absolute;
+  top: 0;
+  left: 55%;
+  background: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 2px;
+}
+
+.cart-negro {
+  position: absolute;
+  top: 0;
+  left: 55%;
+  background: black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 2px;
+}
+
+header {
+  width: 100%;
+  background-color: #292929;
+}
+
+#formulario {
+  max-width: 600px;
+}
+
+.formu {
+  background-color: #000;
+}
+
+#productos-title, .form-label {
+  color: #FFF;
+}
+
+.facebook {
+  color: #3B579D;
+  margin-right: 10px;
+}
+
+.linkedin {
+  color: #007BB6;
+  margin-right: 10px;
+}
+
+.twitter {
+  color: #2CAAE1;
+  margin-right: 10px;
+}
+
+.facebook:hover {
+  opacity: 0.5;
+}
+
+.linkedin:hover {
+  opacity: 0.5;
+}
+
+.twitter:hover {
+  opacity: 0.5;
+}
+
+.img-banner {
+  width: 100%;
+  margin-bottom: 30px;
+  height: 600px;
+}
+
+.procesadores {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #000;
+}
+@media (max-width: 480px) {
+  .procesadores {
+    font-size: 2rem;
+  }
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.tituloh1 {
+  color: #ff6400;
+}
+
+.futuro {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 8px;
+  color: #111;
+}
+@media (max-width: 480px) {
+  .futuro {
+    font-size: 3rem;
+  }
+}
+
+.tarjeta-cpu {
+  margin: 10px 0 0 0;
+  max-width: 700px;
+  width: 50%;
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  .tarjeta-cpu {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+}
+.tarjeta-cpu img {
+  margin-bottom: 30px;
+  width: 100%;
+  max-height: 490px;
+}
+
+#card-tamaño {
+  width: 18rem;
+  height: 25rem;
+}
+
+#h2 {
+  font-size: 1.5rem;
+}
+
+#imagen-tarjeta {
+  width: 16rem;
+  height: 16rem;
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  #card-tamaño {
+    width: auto;
+    height: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  #card-animation:hover {
+    transform: scale(1.15);
+    transition: 1s;
+  }
+}
+@media (min-width: 1200px) {
+  #card-animation:hover {
+    transform: scale(1.15);
+    transition: 1s;
+  }
+  #card-animation:hover {
+    transform: scale(1.15);
+    transition: 1s;
+  }
+}
+#parte1 {
+  background-color: #292929;
+}
+
+#parte2 {
+  background-color: black;
+}
+
+#sitelink {
+  font-size: 28px;
+  color: #ff6400;
+}
+
+#sitelink:hover {
+  color: #e65100;
+}
+
+#title {
+  color: white;
+  position: relative;
+  top: 0px;
+  font-size: 14.1px;
+}
+
+#detail {
+  color: #aaa7a7;
+  font-size: 16px;
+}
+
+#txt1, #txt2, #txt3, #txt4, #txt5 {
+  color: white;
+  font-size: 20px;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 0 !important;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+  height: 40px;
+  color: #aaa7a7;
+  background-color: transparent;
+  border-top: 2px solid white;
+  position: relative;
+  top: -10px;
+}
+
+.link:hover, .link1:hover {
+  color: #e65100;
+}
+
+.text {
+  color: #aaa7a7;
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+.link1 {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  color: #aaa7a7;
+  background-color: transparent;
+  border-top: 2px solid white;
+  position: relative;
+  top: -10px;
+  margin-top: 7px;
+}
+
+.form-fo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -30px;
+  max-width: 250px;
+}
+
+#emaill {
+  color: white;
+}
+
+.btn, .btn-negro, .btn-naranja {
+  position: relative;
+  top: -10px;
+}
+
+#txt5 {
+  position: relative;
+  top: 0px;
+}
+
+.social {
+  position: relative;
+  top: -5px;
+  margin-right: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.fa-facebook-square:hover {
+  color: #3B579D;
+}
+
+.fa-linkedin:hover {
+  color: #007BB6;
+}
+
+.fa-twitter-square:hover {
+  color: #2CAAE1;
+}
+
+#txt6 {
+  color: white;
+  position: relative;
+  top: 13px;
+  left: 8%;
+  width: 80%;
+}
+
+.material-icons {
+  position: relative;
+  top: 3px;
+}
+
+@media (max-width: 576px) {
+  #parte1 {
+    text-align: center;
+  }
+  .link {
+    align-items: center;
+    margin: 0px auto;
+  }
+  .form-fo {
+    align-items: center;
+    margin: 0px auto;
+  }
+}
+.btn, .btn-negro, .btn-naranja {
+  border: rgb(46, 43, 226) 2px solid;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: rgb(43, 52, 226);
+  color: white;
+  cursor: pointer;
+  padding: 8px 10px;
+}
+
+.btn-negro, .btn-naranja {
+  border: #111;
+  background-color: #111;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 8px 20px;
+  margin: 6px 6px 0 0;
+  border-radius: 20px;
+}
+.btn-negro:hover, .btn-naranja:hover {
+  color: #111;
+  opacity: 0.9;
+}
+
+.btn-naranja {
+  background-color: #ff6400 !important;
+}
+.btn-naranja:hover {
+  background-color: #ff6400 !important;
+  opacity: 0.6;
+}
+
+.hero {
+  width: 100%;
+  height: 40vh;
+  background: #000 url(../img/celulares5.jpg) center/cover no-repeat fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.buscador {
+  width: 35%;
+}
+
+.dolar, .busqueda {
+  background-color: #aaa;
+}
+
+.busqueda {
+  margin: 0px auto;
+  font-size: 3rem;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+  background-color: #ff6400;
+  border-radius: 20px;
+  padding: 10px;
+}
+.hero-text p {
+  margin-bottom: 0;
+}
+
+.hero-cpu {
+  width: 100%;
+  height: 40vh;
+  background: #000 url(../img/Microprocesador.JPG) center/cover no-repeat fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.hero-motherboard {
+  width: 100%;
+  height: 40vh;
+  background: #000 url(../img/motherboard.jpg) center/cover no-repeat fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.body-color {
+  background-color: #212529;
+}
+
+.mother-art {
+  background-color: #000;
+}
+
+.lanzamientos {
+  color: #ff6400;
+}
+
+.mother-titulos {
+  color: #fff;
+}
+
+.mother-texto {
+  color: #c4c4c4;
+}
+
+/*# sourceMappingURL=style.css.map */

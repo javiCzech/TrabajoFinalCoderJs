@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Ofertas, Celulares, CPU, Motherboard, Noticias, Gaming, Precios, Contactanos" />
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/12a3270994.js" crossorigin="anonymous"></script>
+
+  <!--Link Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!--Link Css-->
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>CompuTotal | Contacto</title>
+  <meta name="description"
+    content="CompuTotal ofrece una amplia oferta en diferentes tipos de CPU gamers y de uso familiar | Contactanos" />
+</head>
+
+<body class="body-color">
+  <header class="navbar navbar-expand-sm navbar-dark" id="header">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../img/cart-icon.png" alt="icono carrito" class="ms-5 mb-2" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
+        aria-label="Left Align">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav pe-5">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="celulares.html">Celulares</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cpu.html">Cpu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="motherboard.html">Motherboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="mapa">
+      <div class="map-responsive">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4652.123760329472!2d-58.52721478564633!3d-34.46361348984616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb026a186c411%3A0x953d5994b43ebcb6!2sAv.%20Centenario%201500%2C%20B1643CGO%20B%C3%A9ccar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1663525055766!5m2!1ses-419!2sar"
+          width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <section class="formu">
+      <div class="container py-4 pb-5" id="formulario">
+        <h1 class="h1 text-center lanzamientos pt-5 pb-5">
+          Deja tu consulta aqui
+        </h1>
+
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+          <div class="mb-3">
+            <label class="form-label" for="name">Nombre</label>
+            <input class="form-control" id="name" type="text" placeholder="Nombre" data-sb-validations="required" />
+            <div class="invalid-feedback" data-sb-feedback="name:required">
+              Nombre es requerido.
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="name">Apellido</label>
+            <input class="form-control" id="name" type="text" placeholder="Apellido" data-sb-validations="required" />
+            <div class="invalid-feedback" data-sb-feedback="name:required">
+              Apellido es requerido.
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="emailAddress">Email</label>
+            <input class="form-control" id="emailAddress" type="email" placeholder="Email"
+              data-sb-validations="required, email" />
+            <div class="invalid-feedback" data-sb-feedback="emailAddress:required">
+              EL email es requerido.
+            </div>
+            <div class="invalid-feedback" data-sb-feedback="emailAddress:email">
+              EL email no es valido.
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="message">Dejanos tu mensaje</label>
+            <textarea class="form-control" id="message" type="text" placeholder="Mensaje" style="height: 10rem"
+              data-sb-validations="required"></textarea>
+            <div class="invalid-feedback" data-sb-feedback="message:required">
+              Mensaje requerido.
+            </div>
+          </div>
+
+          <div class="d-none" id="submitSuccessMessage">
+            <div class="text-center mother-texto mb-3">Mensaje enviado!</div>
+          </div>
+
+          <div class="d-none" id="submitErrorMessage">
+            <div class="text-center text-danger mb-3">
+              Error al enviar el mensaje!
+            </div>
+          </div>
+
+          <div class="d-grid">
+            <button class="btn-naranja btn btn-lg disabled" id="submitButton" type="submit">
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="row">
+      <article class="col-sm-12 col-md-6 text-center direccion mt-4">
+        <h2 class="mother-titulos"> Nuestras Redes sociales</h2>
+        <div class="mt-4">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square facebook fa-2x"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin linkedin fa-2x"></i></a>
+          <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square twitter fa-2x"></i></a>
+        </div>
+      </article>
+      <article class="col-sm-12 col-md-6 text-center direccion mt-4">
+        <h2 class="mother-titulos">Direcciones de contacto</h2>
+        <div class="d-flex flex-column ">
+          <i class="fa fa-map-marker mt-2 mother-texto" aria-hidden="true"> Av. Centenario 1500 Béccar, Provincia de
+            Buenos Aires
+          </i>
+          <i class="fa fa-mobile mt-3 mother-texto" aria-hidden="true"> Telefono: (011) 1162451865</i>
+          <i class="fa fa-envelope mt-3 mother-texto" aria-hidden="true"> computotal@gmail.com</i>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="mt-5">
+    <div class="container-fluid">
+      <div class="row pt-4" id="parte1">
+        <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-3 col-xxl-3 ps-4" id="companyinfo">
+          <h3 id="sitelink" href="#">CompuTotal</h3>
+          <p id="title">La tecnologia en tus manos</p>
+          <p id="detail">
+            Encontra lo ultimo en tecnologia pc gaming y celulares
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-3 col-xxl-3" id="explore">
+          <p id="txt1">Explora</p>
+          <a class="link" href="../index.html">Home</a>
+          <a class="link" href="celulares.html">Celulares</a>
+          <a class="link" href="cpu.html">Cpu</a>
+          <a class="link" href="motherboard.html">Motherboard</a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-3 col-xxl-3" id="visit">
+          <p id="txt2">Visitanos</p>
+          <p class="text">San Isidro</p>
+          <p class="text">Casa Central</p>
+          <p class="text">Av Centenario 1500</p>
+          <p class="text">tel: (011) 2363-3611</p>
+          <p class="text">cel: (11) 2363-0350</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-3 col-xxl-3" id="subscribe">
+          <form class="mt-4">
+            <div class="form-fo">
+              <label class="form-label" for="emailAddress" id="txt4">Suscribite</label>
+              <input id="emaill" type="email" placeholder="Email" />
+            </div>
+          </form>
+          <a class="waves-effect waves-light btn-naranja">Enviar</a>
+          <p id="txt5">Nuestas Redes Sociales</p>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square social fa-2x"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin social fa-2x"></i></a>
+          <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square social fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="row text-center" id="parte2">
+        <p id="txt6">
+          <i class="material-icons tiny"></i> &copy; Copyright 2022 CompuTotal
+          - Todos los derechos reservados
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- JavaScript -->
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

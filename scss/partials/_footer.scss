@@ -1,0 +1,131 @@
+
+#parte1{
+    background-color: #292929;
+}
+#parte2{
+    background-color: black;;
+}
+
+#sitelink{
+    font-size: 28px;
+    color: $color-primario;
+}
+#sitelink:hover{
+    color: #e65100;
+}
+#title{
+    color: white;
+    position: relative;
+    top: 0px;
+    font-size: 14.1px;
+}
+#detail{
+    color: #aaa7a7;
+    font-size: 16px;
+}
+
+#txt1, #txt2, #txt3, #txt4, #txt5{
+    color: white;
+    font-size: 20px;
+}
+
+.container-fluid{
+  width: 100%;
+  padding: 0 !important;
+}
+
+.row{
+  margin: 0 !important;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    height: 40px;
+    color: #aaa7a7;
+    background-color: transparent;
+    border-top: 2px solid white;
+    position: relative;
+    top: -10px;
+}
+.link:hover, .link1:hover{
+    color: #e65100;
+}
+
+.text{
+    color: #aaa7a7;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.link1{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    color: #aaa7a7;
+    background-color: transparent;
+    border-top: 2px solid white;
+    position: relative;
+    top: -10px;
+    margin-top: 7px;
+}
+.form-fo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -30px;
+    max-width: 250px;
+}
+#emaill{
+    color: white;  
+}
+.btn{
+    position: relative;
+    top: -10px;
+}
+#txt5{
+    position: relative;
+    top: 0px;
+}
+.social{
+    position: relative;
+    top: -5px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+.fa-facebook-square:hover{
+    color: map-get($redes-sociales , facebook );
+}
+.fa-linkedin:hover{
+    color: map-get($redes-sociales , linkedin );
+}
+.fa-twitter-square:hover{
+    color: map-get($redes-sociales , Twitter );
+}
+#txt6{
+    color: white;
+    position: relative;
+    top: 13px;
+    left: 8%;
+    width: 80%;
+}
+.material-icons{
+    position: relative;
+    top: 3px;
+}
+
+@media (max-width: 576px) {
+    #parte1{
+        text-align: center;
+    }
+    .link{
+        align-items: center;
+        margin: 0px auto;
+    }
+    .form-fo{
+        align-items: center;
+        margin: 0px auto;
+    }
+  }

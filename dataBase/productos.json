@@ -1,0 +1,194 @@
+[{
+   "celulares": [{
+      "id": 1,
+      "nombre": "Iphone13",
+      "imagen": "../img/iphone-13-efe-900x600.jpg",
+      "precio": 1100,
+      "cantidad": 1
+   },
+   {
+      "id": 2,
+      "nombre": "Samsung-Galaxy-S21",
+      "imagen": "../img/s21_ultra_group_kv_mo_img.jpg",
+      "precio": 1000,
+      "cantidad": 1
+   },
+   {
+      "id": 3,
+      "nombre": "Google Pixel 6 - Pro",
+      "imagen": "../img/csm_Google_Pixel_6_Pro_2513_cbfd8c7d69.jpg",
+      "precio": 700,
+      "cantidad": 1
+   },
+   {
+      "id": 4,
+      "nombre": "OnePlus 9",
+      "imagen": "../img/oneplus-9-2-90485-g-alt.jpg",
+      "precio": 800,
+      "cantidad": 1
+   },
+   {
+      "id": 5,
+      "nombre": "Xiaomi Mi 11 5G",
+      "imagen": "../img/MI-11-5G.1.jpg",
+      "precio": 600,
+      "cantidad": 1
+   },
+   {
+      "id": 6,
+      "nombre": "OPPO Find X3 Neo",
+      "imagen": "../img/oppo-find-x3-neo-900x609.jpg",
+      "precio": 750,
+      "cantidad": 1
+   },
+   {
+      "id": 7,
+      "nombre": "Motorola Moto G Power",
+      "imagen": "../img/moto-G-power.jpg",
+      "precio": 500,
+      "cantidad": 1
+   },
+   {
+      "id": 8,
+      "nombre": "Samsung Galaxy Z Fold 3",
+      "imagen": "../img/samsung-galaxy-z-fold-3-review-image1-coz70vermc.jpg",
+      "precio": 900,
+      "cantidad": 1
+   },
+   {
+      "id": 9,
+      "nombre": "Iphone-12",
+      "imagen": "../img/iphone-12-gallery1-2021_FMT_WHH.jpg",
+      "precio": 800,
+      "cantidad": 1
+   }],
+   "cpu": [
+   {
+      "id": 10,
+      "nombre": "AMD Ryzen 9 3950x",
+      "imagen": "../img/AMD-Ryzen-9-3950x.jpg",
+      "precio": 250,
+      "cantidad": 1
+   },
+   {
+      "id": 11,
+      "nombre": "AMD Ryzen 9 3900XT",
+      "imagen": "../img/AMD-Ryzen-9-3900XT.jpg",
+      "precio": 300,
+      "cantidad": 1
+   },
+   {
+      "id": 12,
+      "nombre": "Intel Core I9-9900K",
+      "imagen": "../img/Intel-Core-I9-9900K.jpg",
+      "precio": 350,
+      "cantidad": 1
+   },
+   {
+      "id": 13,
+      "nombre": "Intel Core i7-9700K",
+      "imagen": "../img/Intel-Core-i7-9700K.jpg",
+      "precio": 300,
+      "cantidad": 1
+   },
+   {
+      "id": 14,
+      "nombre": "AMD Ryzen 7 3700X",
+      "imagen": "../img/AMD-Ryzen-7-3700X.jpg",
+      "precio": 200,
+      "cantidad": 1
+   },
+   {
+      "id": 15,
+      "nombre": "Intel-Core-i5-9600k",
+      "imagen": "../img/Intel-Core-i5-9600k.jpg",
+      "precio": 300,
+      "cantidad": 1
+   },
+   {
+      "id": 16,
+      "nombre": "AMD 3200G Ryzen 3",
+      "imagen": "../img/AMD-3200G-Ryzen-3.jpg",
+      "precio": 150,
+      "cantidad": 1
+   },
+   {
+      "id": 17,
+      "nombre": "Intel i7 10700K",
+      "imagen": "../img/Intel-Core-i7-10700K.jpg",
+      "precio": 390,
+      "cantidad": 1
+   },
+   {
+      "id": 18,
+      "nombre": "AMD Ryzen 3970x",
+      "imagen": "../img/AMD-Ryzen-Threadripper-3970x.jpg",
+      "precio": 420,
+      "cantidad": 1
+   }
+],
+   "motherboard": [{
+      "id": 19,
+      "nombre": "ASUS ROG Strix X570-E Gaming WiFi II",
+      "imagen": "../img/ASUS-ROG-Strix-X570-E-Gaming.jpg",
+      "precio": 350,
+      "cantidad": 1
+   },
+   {
+      "id": 20,
+      "nombre": "ASUS ROG Strix Z690 E Gaming WiFi",
+      "imagen": "../img/ASUS-ROG-Strix-Z690-E.jpg",
+      "precio": 350,
+      "cantidad": 1
+   },
+   {
+      "id": 21,
+      "nombre": "Gigabyte TRX40 AORUS Master",
+      "imagen": "../img/Gigabyte-TRX40-AORUS-Master.jpg",
+      "precio": 250,
+      "cantidad": 1
+   },
+   {
+      "id": 22,
+      "nombre": "ASUS ROG Maximus Z690 Formula",
+      "imagen": "../img/ASUS-ROG-Maximus-Z690-Formula.jpg",
+      "precio": 450,
+      "cantidad": 1
+   },
+   {
+      "id": 23,
+      "nombre": "ASUS TUF Gaming B550-PLUS",
+      "imagen": "../img/ASUS-TUF-Gaming-B550-PLUS.jpg",
+      "precio": 300,
+      "cantidad": 1
+   },
+   {
+      "id": 24,
+      "nombre": "MSI MAG B660 Tomahawk WiFi",
+      "imagen": "../img/MSI-MAG-B660-Tomahawk-WiFi.jpg",
+      "precio": 450,
+      "cantidad": 1
+   },
+   {
+      "id": 25,
+      "nombre": "Gigabyte X570 I AORUS Pro WiFi",
+      "imagen": "../img/Gigabyte-X570-I-AORUS-Pro-WiFi.jpg",
+      "precio": 300,
+      "cantidad": 1
+   },
+   {
+      "id": 26,
+      "nombre": "ASUS ROG Strix Z690-I Gaming WiFi",
+      "imagen": "../img/ASUS-ROG-Strix-Z690-I-Gaming-WiFi.jpg",
+      "precio": 450,
+      "cantidad": 1
+   },
+   {
+      "id": 27,
+      "nombre": "Asrock B550 Phantom Gaming Velocita",
+      "imagen": "../img/Asrock-B550.jpg",
+      "precio": 240,
+      "cantidad": 1
+   }
+]
+}]

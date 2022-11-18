@@ -1,0 +1,7 @@
+
+.hero-motherboard {
+    width: 100%;
+    height: 40vh;
+    background: #000 url(../img/motherboard.jpg) center / cover no-repeat fixed;
+    @include flexbox(flex-end, flex-start);
+  }

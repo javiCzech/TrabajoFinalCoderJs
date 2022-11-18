@@ -1,0 +1,45 @@
+.img-banner{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 600px;
+}
+
+.procesadores{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #000;
+    @media (max-width: 480px) {
+        & {
+           font-size: 2rem;
+        }
+      }
+}
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+.tituloh1{
+    color: $color-primario;
+}

@@ -1,0 +1,37 @@
+header{
+  width: 100%;
+  background-color: $color-secundario;
+}
+#formulario{
+  max-width: 600px;
+}
+.formu{
+  background-color: #000;
+}
+#productos-title {
+    color: #FFF;
+  }
+.form-label{
+  @extend #productos-title;
+}
+.facebook{
+  color: map-get($redes-sociales , facebook );
+  margin-right: 10px;
+}
+.linkedin{
+  color: map-get($redes-sociales , linkedin );
+  margin-right: 10px;
+}
+.twitter{
+  color: map-get($redes-sociales , Twitter );
+  margin-right: 10px;
+}
+.facebook:hover{
+  opacity: 0.5;
+}
+.linkedin:hover{
+  opacity: 0.5;
+}
+.twitter:hover{
+  opacity: 0.5;
+}

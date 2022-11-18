@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Ofertas, CPU, AMD, INTEL, RYZEN, I9">
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/12a3270994.js" crossorigin="anonymous"></script>
+
+  <!--Link Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!--Link Css-->
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>CompuTotal | Ofertas por tiempo limitado en CPU gamers </title>
+  <meta name="description"
+    content="CompuTotal ofrece una amplia oferta en diferentes tipos de CPU gamers y de uso familiar">
+</head>
+
+<body class="body-color">
+
+  <header class="navbar navbar-expand-sm navbar-dark" id="header">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../img/cart-icon.png" alt="icono carrito" class="ms-5 mb-2">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
+        aria-label="Left Align">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav pe-5">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="celulares.html">Celulares</a></li>
+          <li class="nav-item"><a class="nav-link" href="cpu.html">Cpu</a></li>
+          <li class="nav-item"><a class="nav-link" href="motherboard.html">Motherboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+          <li class="nav-item">
+            <a href="carrito.html" class="cart" title="carrito" rel="nofollow"><i class="fas fa-shopping-cart" id="unico"></i>
+              <span id="span-carrito" data-action="cart-can" class="cart-rojo">1</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-cpu">
+    <div class="hero-text">
+      <p>CPU</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="container">
+      <h1 class="h1 text-center lanzamientos mt-5 mb-5">Nuestras ofertas en Cpu</h1>
+      <div class="container mt-5 mb-5 buscador">
+        <form class="d-flex">
+          <input class="form-control me-2" id="input-busqueda" onkeyup="search(this.value)" type="search" placeholder="Busca tu cpu" aria-label="Search">
+          <button class="btn btn-naranja" type="submit" id="btn-busqueda" onsubmit="parar()">Buscar</button>
+        </form>
+      </div>
+      <div class="text-end" role="group" aria-label="Button group with nested dropdown">
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-naranja dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Ordenar
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" id="menorPrecio" href="#">Precio menor</a></li>
+            <li><a class="dropdown-item" id="mayorPrecio" href="#">Precio mayor</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <article class="dolar text-center" id="dolar">
+        <!-- Aqui va mi codigo -->
+      </article>
+
+      <article class="row" id="segundo">
+        <!-- Aqui va mi codigo -->
+      </article>
+
+    </section>
+
+    <section class="mt-5 mother-art">
+      <div class="container">
+        <h3 class="text-center pt-5 mb-5 lanzamientos">
+          Lanzamientos Recientes
+        </h3>
+        <div class="row">
+          <article class="col-md-6 col-xs-12">
+            <img src="../img/AMD-Ryzen-9-3950XReview.jpg" class="img-banner" alt="AMD-Ryzen-9-3950x" />
+            <h4 class="mother-titulos">AMD Ryzen 9 3950x, uno de los mejores de la serie 3000 de AMD. Destinado a los
+              entusiastas y amantes del gaming que buscan lo mejor </h4>
+            <p class="mother-texto">
+              Con el AMD Ryzen 9 3950x la familia Ryzen de AMD ha redefinido completamente nuestras expectativas para
+              los procesadores de escritorio, e Intel ha luchado por responder pero sin éxito...
+            </p>
+            <a href="https://www.profesionalreview.com/2019/12/05/amd-ryzen-9-3950x-review/"
+              class="btn btn-naranja mt-3" target="_blank">Mas Info</a>
+          </article>
+          <article class="col-md-6 col-xs-12">
+            <img src="../img/Intel-Core-i5-12400.jpg" class="img-banner" alt="Intel-Core-i5-12400" />
+            <h4 class="mother-titulos">
+              Intel Core i5-12400, Review en Español (Análisis completo)
+            </h4>
+            <p class="mother-texto">
+              Hablamos de una CPU con 6 núcleos P-core y 12 hilos, en este caso sin E-core al solo encontrarse activados
+              a partir del i7-12700F. No obstante, la mejora de su arquitectura Alder Lake con proceso Intel 7 a 10 nm
+              le hacen situarse a la par del AMD Ryzen 5600X en rendimiento gaming y multitarea...
+            </p>
+            <a href="https://www.profesionalreview.com/2022/01/04/intel-core-i5-12400-review/"
+              class="btn btn-naranja mt-3" target="_blank">Mas Info
+            </a>
+
+          </article>
+
+          <article class="col-md-6 col-xs-12">
+            <img src="../img/ryzen-5800XD.jpeg" class="img-banner" alt="AMD-Ryzen-7-5800XD" />
+            <h4 class="mother-titulos">
+              AMD Ryzen 7 5800X3D, análisis: así rinde el procesador con el que AMD está decidida a seducir a los
+              entusiastas de los juegos
+            </h4>
+            <p class="mother-texto">
+              El nuevo Ryzen 7 5800X3D se suma al porfolio de chips de la familia Ryzen 5000 con microarquitectura Zen 3
+              con el propósito de afianzarse como la opción más atractiva para los jugones. Esto es, al menos, lo que
+              nos prometió esta marca durante la presentación de este chip....
+            </p>
+            <a href="https://www.xataka.com/analisis/amd-ryzen-7-5800x3d-analisis-caracteristicas-precio-especificaciones"
+              class="btn btn-naranja mt-3" target="_blank">Mas Info</a>
+          </article>
+          <article class="col-md-6 col-xs-12">
+            <img src="../img/Core-i3-12100F.jpg" class="img-banner" alt="Intel-Core-i3-12100F" />
+            <h4 class="mother-titulos">
+              Intel Core i3-12100F Review en Español
+            </h4>
+            <p class="mother-texto">
+              Está compuesto por solo 4 núcleos P-core y 8 hilos, sin presencia de E-core ni gráficos integrados como
+              indica su “F”. El precio más ajustado posible buscando el PC gaming más barato, multimedia o de diseño
+              gráfico donde la GPU tenga casi todo el peso. Veremos qué tal se desenvuelve el más pequeño de la familia
+              con un disipador Arctic Alpine 17 especialmente diseñado para LGA 1700...
+            </p>
+            <a href="https://www.profesionalreview.com/2022/02/22/intel-core-i3-12100f-review/"
+              class="btn btn-naranja mt-3" target="_blank">Mas Info</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="mt-5">
+    <div class="container-fluid">
+      <div class="row pt-4" id="parte1">
+        <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-3 col-xxl-3 ps-4" id="companyinfo">
+          <h3 id="sitelink" href="#">CompuTotal</h3>
+          <p id="title">La tecnologia en tus manos</p>
+          <p id="detail">Encontra lo ultimo en tecnologia pc gaming y celulares </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-3 col-xxl-3" id="explore">
+          <p id="txt1">Explora</p>
+          <a class="link" href="../index.html">home</a>
+          <a class="link" href="celulares.html">Celulares</a>
+          <a class="link" href="motherboard.html">Motherboard</a>
+          <a class="link" href="contact.html">Contacto</a>
+        </div>
+        <div class="col-xs-12  col-sm-6 col-lg-6 col-xl-3 col-xxl-3" id="visit">
+          <p id="txt2">Visitanos</p>
+          <p class="text">San Isidro </p>
+          <p class="text">Casa Central </p>
+          <p class="text">Av Centenario 1500 </p>
+          <p class="text">tel: (011) 2363-3611 </p>
+          <p class="text">cel: (11) 2363-0350 </p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-3 col-xxl-3" id="subscribe">
+          <form class="mt-4">
+            <div class="form-fo">
+              <label class="form-label" for="emailAddress" id="txt4">Suscribite</label>
+              <input id="emaill" type="email" placeholder="Email">
+            </div>
+          </form>
+          <a class="waves-effect waves-light btn-naranja">Enviar</a>
+          <p id="txt5">Nuestas Redes Sociales</p>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square social fa-2x"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin social fa-2x"></i></a>
+          <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square social fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="row text-center" id="parte2">
+        <p id="txt6"><i class="material-icons tiny"></i> &copy; Copyright 2022 CompuTotal - Todos los derechos
+          reservados</p>
+      </div>
+    </div>
+  </footer>
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <!-- sweetalert2 -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Mi codigo -->
+  <script src="../js/logica.js"></script>
+  <script src="../js/cpu.js"></script>
+</body>
+</html>
